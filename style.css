@@ -1,0 +1,41 @@
+
+        body {
+            background-color: coral;
+        }
+        #white {
+            color: rgb(255, 255, 255);
+            margin-top: 200px;
+            height: 50vh;
+            border: 5px black solid;
+            
+        }
+        #red {
+            color: rgb(255, 0, 0);
+        }
+        #green {
+            color: rgb(0, 255, 0);
+        }
+        #blue {
+            color: rgb(0, 0, 255);
+        }
+        .orange {
+            color: orange;
+        }
+        .bgblack {
+            background-color: black;
+        }
+
+        p.orange.bgblack#text {
+
+        }
+
+        ul a {
+            border: red 3px dotted
+        }
+
+        ul>li>a {
+            border: green 3px dotted
+        }
+
+        
+    
