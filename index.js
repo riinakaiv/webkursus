@@ -191,5 +191,91 @@ array4d.forEach(element =>{
     console.log(element);
 })
 
+//console.log(foo);
+var bar;
+console.log(bar);
+
+let foo = 'foo'; // foo, bar, baz
+var bar = 'bar';
+
+const baz = 'afaf';
+console.log(baz);
+let text = 'asdasd' + baz + foo;
+
+console.log(text[3]);
+console.log(text.length);
+console.log(text.toLowerCase());
+console.log(text.toUpperCase())
+console.log(text.toLocaleLowerCase())
+
+let array6 = [1, 2, 3, 4, 5];
+console.log(array6);
+array6.push(6);
+console.log(array6);
+console.log(array6.pop());
+console.log(array6);
 
 
+function sayHello(){
+    console.log('Hello!!');
+}
+sayHello();
+
+let sayName = function (name) { //nimetu funktsioon ehk anonüümne funktsioon
+    console.log('Hello ' + name);
+}
+sayName('Riina');
+sayName('Mari');
+
+
+let sayAge = (age) => {
+    if(age >1) {
+    console.log('you are '+ age + ' years old');
+    }else{
+    console.log('you are '+ age + ' years old');
+    }
+}
+sayAge(37);
+
+//let age = prompt('How old are you?');
+//sayAge(age);
+
+
+console.log(this);
+
+function example1(){
+    console.log(this);
+}
+
+
+let person = {
+    age: 24,
+    getAge(){
+        console.log(this);
+    }
+
+}
+
+
+person.getAge();
+
+person = {
+    age: 24,
+    getAge(){
+        return this.age;
+    }
+}
+
+let age10 = person.getAge();
+console.log(age10);
+
+console.log(person.getAge());
+
+function recursive(i){
+    console.log(i);
+    if(i<10){
+        return recursive(i+1);
+    }
+}
+
+recursive(0);
