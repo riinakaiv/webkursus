@@ -2,3 +2,11 @@
     background-color: coral;
     border-color: coral;
 }
+
+#myslider .images img {
+    display: none;
+}
+
+#myslider .images img.active {
+    display: inline;
+}
