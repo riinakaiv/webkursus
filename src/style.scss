@@ -1,8 +1,4 @@
-$bgcolor: coral;
+$primary: coral;
 
-body {
-    background-color: lighten($bgcolor, 30%);
-}
+@import '../node_modules/bulma/bulma.sass';
 
-
-@import './styles/_title.scss';
