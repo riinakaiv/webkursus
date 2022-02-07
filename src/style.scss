@@ -1,0 +1,8 @@
+$bgcolor: coral;
+
+body {
+    background-color: lighten($bgcolor, 30%);
+}
+
+
+@import './styles/_title.scss';
