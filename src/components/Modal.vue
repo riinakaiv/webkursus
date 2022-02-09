@@ -1,5 +1,5 @@
 <template>
-    <div class="modal" :class="{'is-active': active}">
+    <div class="modal is-active">
             <div class="modal-background" @click="$emit('close')"></div>
             <div class="modal-content">
                 <p class="image is-4by3">
@@ -13,7 +13,7 @@
 
 <script>
 export default {
-    props: ['active', 'url']
+    props: ['url']
 
 }
 </script>
